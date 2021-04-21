@@ -31,9 +31,6 @@
       position: relative;
       overflow-x: hidden;
       .input {
-        appearance: none;
-        -moz-appearance: none;
-        -webkit-appearance: none;
         font-size: 16px;
         color: $primaryColor;
         width: 100%;
@@ -54,6 +51,9 @@
         &:valid + .label-name::after {
           transform: translate(0%);
         }
+        appearance: none;
+        -moz-appearance: none;
+        -webkit-appearance: none;
       }
       label {
         position: absolute;

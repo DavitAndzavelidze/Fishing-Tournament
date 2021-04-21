@@ -378,9 +378,6 @@
 }
 
 .form .input-div .input-box .input {
-  appearance: none;
-  -moz-appearance: none;
-  -webkit-appearance: none;
   font-size: 16px;
   color: #fff;
   width: 100%;
@@ -392,6 +389,9 @@
   padding: 20px 30px 5px 30px;
   -webkit-transition: 0.4s;
   transition: 0.4s;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
 }
 
 .form .input-div .input-box .input:focus + .label-name .content-name,
