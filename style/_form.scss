@@ -10,6 +10,9 @@
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
   .user {
     font-size: 60px;
     position: relative;
@@ -64,9 +67,6 @@
         border-bottom: $formColor 1px solid;
         transform: translateY(-30px);
         pointer-events: none;
-        appearance: none;
-        -moz-appearance: none;
-        -webkit-appearance: none;
         &::after {
           content: "";
           position: absolute;
