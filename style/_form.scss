@@ -63,6 +63,7 @@
         border-bottom: $formColor 1px solid;
         top: 10;
         transform: translateY(-30px);
+        overflow: hidden;
         pointer-events: none;
         &::after {
           content: "";
