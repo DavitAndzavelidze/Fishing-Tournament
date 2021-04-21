@@ -389,9 +389,6 @@
   padding: 20px 30px 5px 30px;
   -webkit-transition: 0.4s;
   transition: 0.4s;
-  appearance: none;
-  -moz-appearance: none;
-  -webkit-appearance: none;
 }
 
 .form .input-div .input-box .input:focus + .label-name .content-name,
@@ -421,6 +418,9 @@
   -webkit-transform: translateY(-30px);
           transform: translateY(-30px);
   pointer-events: none;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
 }
 
 .form .input-div .input-box label::after {

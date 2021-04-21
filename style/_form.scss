@@ -51,9 +51,6 @@
         &:valid + .label-name::after {
           transform: translate(0%);
         }
-        appearance: none;
-        -moz-appearance: none;
-        -webkit-appearance: none;
       }
       label {
         position: absolute;
@@ -67,6 +64,9 @@
         border-bottom: $formColor 1px solid;
         transform: translateY(-30px);
         pointer-events: none;
+        appearance: none;
+        -moz-appearance: none;
+        -webkit-appearance: none;
         &::after {
           content: "";
           position: absolute;
