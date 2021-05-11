@@ -294,6 +294,17 @@
   }
 }
 
+.rules .download {
+  text-decoration: none;
+  color: #068d06;
+  display: block;
+  text-align: end;
+}
+
+.rules .billingual {
+  text-transform: uppercase;
+}
+
 .rules-eng {
   font-family: "Roboto", sans-serif;
 }
