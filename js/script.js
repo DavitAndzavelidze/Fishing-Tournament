@@ -22,7 +22,7 @@ btnCloseRules.addEventListener("click", closeRules);
 overlay.addEventListener("click", closeRules);
 
 // Photos Variables
-const btnOpenPhoto = document.querySelectorAll(".setting");
+const btnOpenPhoto = document.querySelectorAll(".flag");
 const btnbg = document.querySelector(".slider");
 const bgForm = document.querySelector(".form");
 const photos = document.querySelector(".language");

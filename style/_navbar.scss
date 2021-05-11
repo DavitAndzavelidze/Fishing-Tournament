@@ -32,50 +32,42 @@
       box-shadow: -1px 1px 2px 2px rgb(97, 39, 39);
     }
   }
-  .setting {
-    color: $primaryColor;
+  .title-eng {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+  }
+  .flag {
+    width: 30px;
+    border-radius: 10px;
     margin-top: 8px;
-    margin-left: 5rem;
-    font-size: 18px;
-    display: inline-block;
+    margin-left: 4.5rem;
     cursor: pointer;
     position: relative;
     z-index: 5;
-    animation: spin 10s linear infinite;
-    @keyframes spin {
-      0% {
-        transform: rotate(0deg);
-      }
-      100% {
-        transform: rotate(360deg);
-      }
-    }
+  }
+  .flag-rus {
+    margin-left: 6rem;
   }
   .language {
+    width: 100px;
     position: absolute;
     top: 0;
     right: 0;
-    margin: 2.5rem 2rem;
-    background: $primaryColor;
+    margin: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: $formColor;
     padding: 3px 10px;
     border-radius: 5px;
     z-index: 5;
-    a {
-      text-transform: uppercase;
-      text-decoration: none;
-      color: $formColor;
-      transition: 0.3s;
-      padding-left: 10px;
-      &:first-child {
-        padding-left: 0;
-      }
-      &:hover {
-        color: $btn1;
-      }
+    .flag-style {
+      width: 30px;
+      border-radius: 10px;
     }
   }
 }
 // -------------------Hidden Content-------------------------
 .hidden {
-  display: none;
+  display: none !important;
 }

@@ -21,6 +21,10 @@
     position: relative;
     z-index: 2;
   }
+  .form-title-eng {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+  }
   .input-div {
     position: relative;
     display: flex;
@@ -52,6 +56,11 @@
           transform: translate(0%);
         }
       }
+      input[type="number"]::-webkit-inner-spin-button,
+      input[type="number"]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+      }
       label {
         position: absolute;
         top: 0;
@@ -79,6 +88,10 @@
           position: absolute;
           bottom: 5px;
           transition: all 0.3s ease;
+        }
+        .content-name-eng {
+          font-family: "Roboto", sans-serif;
+          text-transform: capitalize;
         }
       }
       .active {
@@ -112,6 +125,10 @@
       &:focus {
         outline-style: none;
       }
+    }
+    .btn-eng {
+      font-family: "Roboto", sans-serif;
+      text-transform: uppercase;
     }
   }
 }

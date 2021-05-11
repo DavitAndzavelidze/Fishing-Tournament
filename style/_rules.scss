@@ -39,6 +39,13 @@
     height: 100vh;
   }
 }
+.rules-eng {
+  font-family: "Roboto", sans-serif;
+  .rules-title-eng {
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+}
 // -------------------------Overlay---------------------------
 .overlay {
   position: absolute;

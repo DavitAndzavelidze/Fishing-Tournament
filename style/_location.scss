@@ -1,24 +1,27 @@
 // -----------------------Location---------------------------
-.location {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  margin-bottom: 2rem;
-  margin-right: 1rem;
-  font-size: 2rem;
-  color: $primaryColor;
-  cursor: pointer;
-  animation: jump 1s ease-in-out alternate-reverse infinite;
-  @keyframes jump {
-    0% {
-      transform: translateY(0rem);
-    }
-    100% {
-      transform: translateY(1rem);
+.icons {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1300px;
+  height: 80vh;
+  justify-content: flex-end;
+  align-items: flex-end;
+  .location {
+    margin-right: 1rem;
+    font-size: 2rem;
+    color: $primaryColor;
+    cursor: pointer;
+    animation: jump 1s ease-in-out alternate-reverse infinite;
+    @keyframes jump {
+      0% {
+        transform: translateY(0rem);
+      }
+      100% {
+        transform: translateY(1rem);
+      }
     }
   }
 }
-
 //------------------------Map-----------------------------
 .map {
   position: absolute;

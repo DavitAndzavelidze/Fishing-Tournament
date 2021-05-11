@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+    </style>
+    <script
+      src="https://kit.fontawesome.com/ead75f6eaa.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style/style.css" />
+    <title>F | G</title>
+  </head>
+  <body>
+    <div class="nav_container">
+      <img class="logo" src="./imgs/logo.svg" alt="logo" />
+      <div class="nav_box">
+        <h3 class="title title-eng">
+          rules <span><i class="fas fa-download"></i></span>
+        </h3>
+        <img class="flag" src="./imgs/United_Kingdom.svg" alt="flag" />
+      </div>
+      <div class="language hidden">
+        <a href="index.html"
+          ><img class="flag-style" src="./imgs/georgia.png" alt="georgia"
+        /></a>
+        <a href="rus.html"
+          ><img class="flag-style" src="./imgs/russia.jpg" alt="russia" />
+        </a>
+      </div>
+    </div>
+    <!-- Image Slider -->
+    <div class="slider">
+      <div class="slides">
+        <!-- Radio Buttons -->
+        <input type="radio" name="radio-btn" id="radio1" />
+        <input type="radio" name="radio-btn" id="radio2" />
+        <input type="radio" name="radio-btn" id="radio3" />
+        <input type="radio" name="radio-btn" id="radio4" />
+        <div class="slide first">
+          <img src="./imgs/1.jpg" alt="1" />
+        </div>
+        <div class="slide">
+          <img src="./imgs/2.jpg" alt="2" />
+        </div>
+        <div class="slide">
+          <img src="./imgs/3.jpg" alt="3" />
+        </div>
+        <div class="slide">
+          <img src="./imgs/4.jpg" alt="4" />
+        </div>
+        <!-- Automatic Navigation -->
+        <div class="navigation-auto">
+          <div class="auto-btn1"></div>
+          <div class="auto-btn2"></div>
+          <div class="auto-btn3"></div>
+          <div class="auto-btn4"></div>
+        </div>
+        <!-- Manual Navigation -->
+        <div class="navigation-manual">
+          <label for="radio1" class="manual-btn"></label>
+          <label for="radio2" class="manual-btn"></label>
+          <label for="radio3" class="manual-btn"></label>
+          <label for="radio4" class="manual-btn"></label>
+        </div>
+      </div>
+    </div>
+    <div class="rules rules-eng hidden">
+      <h2 class="rules-title rules-title-eng">tournament rules</h2>
+      <button class="close-rules">&times;</button>
+      <ol>
+        <li>
+          Fishing is allowed only with a fishing rod. With a match stick,
+          Bologna With type of elbow rod, movable elbow rod and plug.
+        </li>
+        <li>Fishing with feeder, carp and spinning sticks is prohibited.</li>
+        <li>
+          The use of all types of electronic fishing equipment is prohibited.
+        </li>
+        <li>
+          The competition will be held only in individual counting. Will be in
+          the coastline One zone that will be divided into 10 meter sectors that
+          Will be numbered according to the number of participants. Sectors of
+          referees Except for the entry of strangers is strictly prohibited.
+        </li>
+        <li>
+          Fishing is allowed with only one rod. The fisherman has the right Have
+          one or more spare rods in assembled condition which Should be placed
+          within the sector.
+        </li>
+        <li>
+          Bring additional equipment and food to the sector of the tournament It
+          is strictly forbidden during the procession.
+        </li>
+        <li>Fishing is allowed with only one single needle</li>
+        <li>
+          It is strictly forbidden to fish on the surface of the water. The
+          catch of the fish should be marked with a tweezers and not a stick.
+          from here Therefore the tibia should be in a vertical position and
+          should have Positive volatility, otherwise accepted by the referees
+          There will be sanctions.
+        </li>
+        <li>Float can be used as a slide (in Scalzia) as well Fixed.</li>
+        <li>
+          Any additional food is allowed to be eaten. Maximum Quantity 15
+          liters. Feeding should be done by hand and jealously. Feeding by any
+          other means is prohibited.
+        </li>
+        <li>
+          Any animal or grain bait is allowed Available on Nemskav. It is
+          forbidden to bait, fish Lipsita, fish parts or spawn. Hair
+          transplantation is prohibited.
+        </li>
+        <li>
+          Only soft materials are allowed to be placed under the caught fish
+          Made of storage nets, metal nets are strictly prohibited In case of
+          catching a big fish the participant is obliged to report it Inform the
+          refereeing brigade, after which its booty is weighed, weight Will be
+          recorded in the athlete’s personal protocol and the fish will be
+          returned immediately Reservoir.
+        </li>
+        <li>
+          After weighing, the caught fish must be returned to their native
+          reservoir.
+        </li>
+        <li>
+          It is strictly forbidden to participate in the tournament in a state
+          of insomnia Or alcohol consumption during the tournament.
+        </li>
+        <li>
+          Access to water and fishing is strictly prohibited. Enter the water
+          May be obtained in case of obtaining permission from the referee (in
+          case of failure Time) in case of gross violation of the above rules by
+          the referees The board has the right to disqualify a participant from
+          the tournament and To annul the result of his participation.
+        </li>
+      </ol>
+    </div>
+    <div class="overlay hidden"></div>
+    <div class="form">
+      <form action="#">
+        <i class="fas fa-user-circle user"></i>
+        <h2 class="form-title form-title-eng">registration</h2>
+        <div class="input-div">
+          <div class="input-box">
+            <input
+              class="input"
+              required
+              autocomplete="off"
+              type="text"
+              name="name"
+              id="name"
+            />
+            <label class="label-name" for="name">
+              <span class="content-name content-name-eng">name</span>
+            </label>
+            <span><i class="fas fa-user active"></i></span>
+          </div>
+          <div class="input-box">
+            <input
+              class="input"
+              required
+              autocomplete="off"
+              type="number"
+              name="number"
+              id="number"
+            />
+            <label class="label-name" for="number">
+              <span class="content-name content-name-eng">phone number</span>
+            </label>
+            <span><i class="fas fa-phone-alt active"></i></span>
+          </div>
+          <div class="input-box">
+            <input
+              class="input"
+              required
+              autocomplete="off"
+              type="text"
+              name="email"
+              id="email"
+            />
+            <label class="label-name" for="email">
+              <span class="content-name content-name-eng">email</span>
+            </label>
+            <span><i class="fas fa-envelope active"></i></span>
+          </div>
+          <button type="submit" class="btn btn-eng">send</button>
+        </div>
+      </form>
+    </div>
+    <footer>
+      <div class="icons">
+        <i class="fas fa-map-marker-alt location"></i>
+        <div class="map hidden">
+          <button class="close-map">&times;</button>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23863.5591677037!2d44.000268029053885!3d41.61370325708879!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4043a1dbe1ef361b%3A0x8e14f9724aeb33b!2sTsalka%20(Khrami)%20Reservoir!5e0!3m2!1sen!2sge!4v1618063685439!5m2!1sen!2sge"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
