@@ -33,7 +33,7 @@
     margin: 0 auto;
     .input-box {
       position: relative;
-      overflow-x: clip;
+      overflow-x: hidden;
       .input {
         font-size: 16px;
         color: $primaryColor;

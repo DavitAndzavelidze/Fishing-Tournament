@@ -381,7 +381,7 @@
 
 .form .input-div .input-box {
   position: relative;
-  overflow-x: clip;
+  overflow-x: hidden;
 }
 
 .form .input-div .input-box .input {
