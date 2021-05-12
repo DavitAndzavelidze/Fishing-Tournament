@@ -33,7 +33,7 @@
     margin: 0 auto;
     .input-box {
       position: relative;
-      overflow-x: hidden;
+      overflow-x: clip;
       .input {
         font-size: 16px;
         color: $primaryColor;
@@ -45,6 +45,7 @@
         margin-bottom: 30px;
         padding: 20px 30px 5px 30px;
         transition: 0.4s;
+        -moz-appearance: textfield;
         &:focus + .label-name .content-name,
         &:valid + .label-name .content-name {
           transform: translateY(-150%);
@@ -60,6 +61,10 @@
       input[type="number"]::-webkit-outer-spin-button {
         -webkit-appearance: none;
         margin: 0;
+      }
+      input[type="number"]:hover,
+      input[type="number"]:focus {
+        -moz-appearance: number-input;
       }
       label {
         position: absolute;

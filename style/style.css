@@ -381,7 +381,7 @@
 
 .form .input-div .input-box {
   position: relative;
-  overflow-x: hidden;
+  overflow-x: clip;
 }
 
 .form .input-div .input-box .input {
@@ -396,6 +396,7 @@
   padding: 20px 30px 5px 30px;
   -webkit-transition: 0.4s;
   transition: 0.4s;
+  -moz-appearance: textfield;
 }
 
 .form .input-div .input-box .input:focus + .label-name .content-name,
@@ -416,6 +417,11 @@
 .form .input-div .input-box input[type="number"]::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
+}
+
+.form .input-div .input-box input[type="number"]:hover,
+.form .input-div .input-box input[type="number"]:focus {
+  -moz-appearance: number-input;
 }
 
 .form .input-div .input-box label {
