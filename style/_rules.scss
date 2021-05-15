@@ -11,14 +11,14 @@
   height: 80vh;
   overflow-y: scroll;
   transform: translateX(scroll);
-  z-index: 10;
+  z-index: 30;
   .rules-title {
     position: absolute;
     background: none;
     top: 0;
     text-align: center;
     margin-top: 10px;
-    z-index: 10;
+    z-index: 30;
   }
   .close-rules {
     position: sticky;
@@ -64,5 +64,5 @@
   height: 100%;
   background: rgba($color: #333, $alpha: 0.8);
   backdrop-filter: blur(3px);
-  z-index: 5;
+  z-index: 20;
 }

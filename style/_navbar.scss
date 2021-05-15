@@ -12,7 +12,7 @@
     align-items: center;
     cursor: pointer;
     position: relative;
-    z-index: 5;
+    z-index: 20;
   }
   .title {
     font-size: 14px;
@@ -24,7 +24,7 @@
     text-align: center;
     transition: all 0.3s ease;
     position: relative;
-    z-index: 5;
+    z-index: 20;
     span {
       margin-left: 5px;
     }
@@ -43,7 +43,7 @@
     margin-left: 4.5rem;
     cursor: pointer;
     position: relative;
-    z-index: 5;
+    z-index: 20;
   }
   .flag-rus {
     margin-left: 6rem;
@@ -60,7 +60,7 @@
     background: $formColor;
     padding: 3px 10px;
     border-radius: 5px;
-    z-index: 5;
+    z-index: 20;
     .flag-style {
       width: 30px;
       border-radius: 10px;

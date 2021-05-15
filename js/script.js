@@ -23,7 +23,7 @@ overlay.addEventListener("click", closeRules);
 
 // Photos Variables
 const btnOpenPhoto = document.querySelectorAll(".flag");
-const btnbg = document.querySelector(".slider");
+const btnbg = document.querySelector(".header-overlay");
 const bgForm = document.querySelector(".form");
 const photos = document.querySelector(".language");
 
@@ -61,13 +61,3 @@ for (let i = 0; i < btnShowMap.length; i++)
   btnShowMap[i].addEventListener("click", openMap);
 btnCloseMap.addEventListener("click", closeMap);
 bgForm.addEventListener("click", closeMap);
-
-// Slider
-let counter = 1;
-setInterval(function () {
-  document.querySelector("#radio" + counter).checked = true;
-  counter++;
-  if (counter > 4) {
-    counter = 1;
-  }
-}, 5000);
