@@ -61,3 +61,5 @@ for (let i = 0; i < btnShowMap.length; i++)
   btnShowMap[i].addEventListener("click", openMap);
 btnCloseMap.addEventListener("click", closeMap);
 bgForm.addEventListener("click", closeMap);
+
+const video = document.querySelector(".video").play();
